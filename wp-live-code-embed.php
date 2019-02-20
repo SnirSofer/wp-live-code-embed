@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Live Code Embed
+ * Plugin Name: WP Live Code Embed
  * Plugin URI: https://waf.co.il/category/internet/wordpress/plugins/live-code-embed
  * Description: This plugin allow to you embed code snippets from pastebin, github gists, github profile, github repository and codepen.
  * Version: 1.0.0
