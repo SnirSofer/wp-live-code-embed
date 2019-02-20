@@ -4,11 +4,13 @@
  * Plugin URI: https://waf.co.il/category/internet/wordpress/plugins/live-code-embed
  * Description: This plugin allow to you embed code snippets from pastebin, github gists, github profile, github repository and codepen.
  * Version: 1.0.0
+ * Donate link: https://waf.co.il/donate
  * Author: Snir Sofer
  * Author URI: http://waf.co.il
- * Text Domain: live-code-embed
+ * Text Domain: wp-live-code-embed
  * License: Free
- */
+ * Tested up to: 5.0.3
+*/
 
 if ( ! defined( 'ABSPATH' ) ) {
 	die();
