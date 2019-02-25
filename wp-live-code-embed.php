@@ -61,3 +61,11 @@ function embed_Codepen_shortcode($atts)
 }
 add_shortcode( 'codepen', 'embed_Codepen_shortcode' );
 
+/* Asciinema */
+function embed_asciinema_shortcode($atts)
+{
+    $params = shortcode_atts(['id' => 'evsuw'],$atts);
+    return '<script id="asciicast-'.$params['id'].'" src="https://asciinema.org/a/'.$params['id'].'.js" async></script>';
+}
+add_shortcode( 'asciinema', 'embed_asciinema_shortcode' );
+
